@@ -11,6 +11,7 @@ public class ReportController extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException {
 		try {
 			System.out.println("Hello, world from Bui Hoang Tung");
+			System.out.println("Hello, world from Gia Huy");
 			res.sendRedirect("ReportDateSelector.jsp");
 		} catch (IOException ioe) {
 		}
