@@ -12,6 +12,7 @@ public class ReportController extends HttpServlet {
 		try {
 			System.out.println("Hello, world from Bui Hoang Tung");
 			System.out.println("Hello, world from Gia Huy");
+			System.out.println("Hello, world from new Gia Huy");
 			res.sendRedirect("ReportDateSelector.jsp");
 		} catch (IOException ioe) {
 		}
