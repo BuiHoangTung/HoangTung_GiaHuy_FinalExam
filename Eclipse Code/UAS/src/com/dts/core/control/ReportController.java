@@ -7,14 +7,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ReportController extends HttpServlet
-{
-	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException
-	{
-		try
-		{
+public class ReportController extends HttpServlet {
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException {
+		try {
+			System.out.println("Hello, world from Bui Hoang Tung");
 			res.sendRedirect("ReportDateSelector.jsp");
+		} catch (IOException ioe) {
 		}
-		catch(IOException ioe){}
 	}
 }
